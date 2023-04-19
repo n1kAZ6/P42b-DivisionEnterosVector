@@ -22,9 +22,9 @@ namespace P42b_DivisionEnterosVector
                     int[] vNum = new int[20];
 
                     for (int i = 0; i < vNum.Length; i++)
-                        vNum[i] = azar.Next(100);
+                        vNum[i] = azar.Next(101);
           
-                    Console.Write("Que posición del vector quiere ver (0 para terminar) [{0}..{1}] : ", 0, vNum.Length-1);
+                    Console.Write("Que posición del vector quiere ver (escribe \"fin\" para terminar) [{0}..{1}] : ", 0, vNum.Length-1);
                     terminarAplicacion = Console.ReadLine();
 
                     if (terminarAplicacion.ToLower()!="fin")
